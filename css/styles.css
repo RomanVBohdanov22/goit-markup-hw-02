@@ -27,3 +27,10 @@ button:hover {
 button:focus {
   color: tomato;
 }
+a:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+a:active {
+  color: tomato;
+}
