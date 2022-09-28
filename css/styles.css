@@ -22,4 +22,8 @@ h3 {
 }
 button:hover {
   color: chocolate;
+  cursor: pointer;
+}
+button:focus {
+  color: tomato;
 }
