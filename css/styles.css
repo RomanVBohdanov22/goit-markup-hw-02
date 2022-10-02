@@ -43,6 +43,7 @@ body {
   color: var(--fontcolorh3);
 }
 .h3 {
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   color: var(--fontcolorh3);
@@ -132,6 +133,7 @@ body {
 .main-page-adv-4h3 .h3 {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .main-page-banner {
@@ -169,7 +171,10 @@ body {
   background-color: var(--bluebtn);
   color: var(--whitetxt);
 }
-
+.alt-p-16 > .p {
+  font-size: 16px;
+  color: var(--fontcolordescrp);
+}
 .main-page-banner > button:hover {
   /*color: chocolate;*/
   opacity: 0.6;
