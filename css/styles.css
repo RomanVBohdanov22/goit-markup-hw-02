@@ -1,8 +1,33 @@
+:root {
+  --bgcolor: #f5f5f5;
+  --mainfont: 'Roboto', sans-serif;
+  --bannerfont: 'Raleway', sans-serif;
+  --bluebtn: #2196f3;
+  --bluetextclr: var(--bluebtn);
+  --whitetxt: #ffffff;
+  --bannerclr: #2f303a;
+  --fontcolorh3: #212121;
+  --fontcolordescrp: #757575;
+  --fontblack: #000000;
+}
 body {
-  background-color: #f5f5f5;
-  font-family: 'Roboto', sans-serif;
+  background-color: var(--bgcolor);
+  font-family: var(--mainfont);
   font-size: 14px;
   font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
 }
 .visually-hidden {
   position: absolute;
@@ -16,71 +41,104 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.nomarkerlst {
+  list-style-type: none;
+  padding: 0;
+}
+.navtag1 a,
+.navtag1 li > a,
+header .nomarkerlst li > a {
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--fontcolorh3);
+}
+footer li > a,
+footer .nomarkerlst li > a {
+  line-height: 1.14;
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--whitetxt);
+}
+
 .logo1p {
   font-size: 26px;
   text-decoration: none;
   /*text-shadow: #2f303a;*/
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--bannerfont);
   font-weight: 700;
-  color: #000000;
+  color: var(--bluetextclr);
 }
-.logo2p {
+header .logo2p {
   font-size: 26px;
   text-decoration: none;
-  /*text-shadow: #2f303a;*/
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--bannerfont);
   font-weight: 700;
-  color: #2196f3;
+  color: var(--fontblack);
 }
+footer .logo2p {
+  font-size: 26px;
+  text-decoration: none;
+  font-family: var(--bannerfont);
+  font-weight: 700;
+  color: var(--whitetxt);
+}
+footer {
+  background-color: var(--bannerclr);
+}
+
 .all-big-chars {
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--whitetxt);
   line-height: 3em;
 }
 .main-page-banner {
-  background-color: #2f303a;
+  background-color: var(--bannerclr);
 }
-footer {
-  background-color: #2f303a;
-}
+
 .button-to-order {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--whitetxt);
+  background-color: var(--bluebtn);
+  font-size: 16px;
   border-collapse: collapse;
   line-height: 3em;
 }
+.navbtn-menu button {
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 3em;
+}
 p {
-  color: #212121;
+  color: var(--fontcolordescrp);
 }
 h1 {
   font-size: 44px;
-  /*font-style: normal;*/
   font-weight: 900;
-  color: #212121;
+  color: var(--fontcolorh3);
 }
 h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  color: #212121;
+  color: var(--fontcolorh3);
 }
 h3 {
   font-style: normal;
   font-weight: 500;
-  color: #212121;
+  color: var(--fontcolorh3);
 }
-button:hover {
+
+.main-page-banner > button:hover {
   color: chocolate;
   cursor: pointer;
 }
-button:focus {
+.main-page-banner > button:focus {
   color: tomato;
 }
-a:hover {
+.nomarkerlst li > a:hover {
   color: chocolate;
   cursor: pointer;
 }
-a:active {
+.nomarkerlst li > a:active {
   color: tomato;
 }
