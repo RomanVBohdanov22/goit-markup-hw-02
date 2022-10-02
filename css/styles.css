@@ -62,7 +62,7 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .f-main {
@@ -75,14 +75,14 @@ header {
 }
 .navtag1 a,
 .navtag1 li > a,
-header .nomarkerlst li > a {
+.header .nomarkerlst li > a {
   line-height: 1.14;
   text-decoration: none;
   color: var(--fontcolorh3);
 }
-footer a,
-footer li > a,
-footer .nomarkerlst li > a {
+.footer a,
+.footer li > a,
+.footer .nomarkerlst li > a {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
@@ -98,7 +98,7 @@ footer .nomarkerlst li > a {
   font-weight: 700;
   color: var(--bluetextclr);
 }
-header .logo2p {
+.header .logo2p {
   font-size: 26px;
   text-decoration: none;
   text-shadow: var(--logoshadow);
@@ -106,7 +106,7 @@ header .logo2p {
   font-weight: 700;
   color: var(--fontblack);
 }
-footer .logo2p {
+.footer .logo2p {
   font-size: 26px;
   text-decoration: none;
   text-shadow: var(--logoshadow);
@@ -114,7 +114,7 @@ footer .logo2p {
   font-weight: 700;
   color: var(--whitetxt);
 }
-footer {
+.footer {
   background-color: var(--bannerclr);
 }
 .opacity60 {
@@ -166,11 +166,13 @@ footer {
 }
 
 .main-page-banner > button:hover {
-  color: chocolate;
+  /*color: chocolate;*/
+  opacity: 0.6;
   cursor: pointer;
 }
 .main-page-banner > button:focus {
-  color: tomato;
+  /*color: tomato;*/
+  opacity: 0.85;
 }
 .nomarkerlst li > a:hover {
   color: var(--bluetextclr);
@@ -179,3 +181,6 @@ footer {
 .nomarkerlst li > a:active {
   color: var(--bluetextclr); /* tomato;*/
 }
+/*.nomarkerlst li > a:visited {
+  color: tomato;
+}*/
