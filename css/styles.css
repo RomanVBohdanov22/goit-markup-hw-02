@@ -25,7 +25,7 @@ body {
 .ul,
 .p {
   margin: 0;
-  /*padding: 0;*/
+  padding: 0;
 }
 .p {
   color: var(--fontcolordescrp);
@@ -145,7 +145,7 @@ body {
   border-radius: 4px;
 }
 .nawbtn-section {
-  /* background-color: #f5f4fa;*/
+  /*background-color: #f5f4fa;*/
 }
 .navbtn-menu button {
   border-collapse: collapse;
@@ -179,7 +179,7 @@ body {
   cursor: pointer;
 }
 .nomarkerlst li > a:active {
-  color: var(--bluetextclr); /* tomato;*/
+  color: var(--bluetextclr);
 }
 /*.nomarkerlst li > a:visited {
   color: tomato;
