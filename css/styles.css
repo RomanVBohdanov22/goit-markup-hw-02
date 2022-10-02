@@ -9,6 +9,7 @@
   --fontcolorh3: #212121;
   --fontcolordescrp: #757575;
   --fontblack: #000000;
+  --greybtbn: #f4f5fa;
 }
 body {
   background-color: var(--bgcolor);
@@ -23,9 +24,28 @@ h4,
 ul,
 p {
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
 }
-
+p {
+  color: var(--fontcolordescrp);
+  font-weight: 400;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: var(--fontcolorh3);
+}
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--fontcolorh3);
+}
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--fontcolorh3);
+}
 img {
   display: block;
 }
@@ -56,6 +76,7 @@ footer li > a,
 footer .nomarkerlst li > a {
   line-height: 1.14;
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   color: var(--whitetxt);
 }
@@ -85,7 +106,12 @@ footer .logo2p {
 footer {
   background-color: var(--bannerclr);
 }
-
+.opacity60 {
+  opacity: 0.6;
+}
+.ourcommand-bg {
+  background-color: #f5f4fa;
+}
 .all-big-chars {
   font-weight: 900;
   text-transform: uppercase;
@@ -103,29 +129,15 @@ footer {
   border-collapse: collapse;
   line-height: 3em;
 }
+.nawbtn-section {
+  /* background-color: #f5f4fa;*/
+}
 .navbtn-menu button {
   border-collapse: collapse;
+  background-color: var(--greybtbn);
   font-size: 16px;
-  line-height: 3em;
-}
-p {
-  color: var(--fontcolordescrp);
-}
-h1 {
-  font-size: 44px;
-  font-weight: 900;
-  color: var(--fontcolorh3);
-}
-h2 {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  color: var(--fontcolorh3);
-}
-h3 {
-  font-style: normal;
-  font-weight: 500;
-  color: var(--fontcolorh3);
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .main-page-banner > button:hover {
