@@ -10,6 +10,7 @@
   --fontcolordescrp: #757575;
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
+  --logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
 }
 body {
   background-color: var(--bgcolor);
@@ -72,6 +73,7 @@ header .nomarkerlst li > a {
   text-decoration: none;
   color: var(--fontcolorh3);
 }
+footer a,
 footer li > a,
 footer .nomarkerlst li > a {
   line-height: 1.14;
@@ -84,7 +86,7 @@ footer .nomarkerlst li > a {
 .logo1p {
   font-size: 26px;
   text-decoration: none;
-  /*text-shadow: #2f303a;*/
+  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--bluetextclr);
@@ -92,6 +94,7 @@ footer .nomarkerlst li > a {
 header .logo2p {
   font-size: 26px;
   text-decoration: none;
+  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--fontblack);
@@ -99,6 +102,7 @@ header .logo2p {
 footer .logo2p {
   font-size: 26px;
   text-decoration: none;
+  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--whitetxt);
@@ -124,16 +128,22 @@ footer {
 
 .button-to-order {
   color: var(--whitetxt);
-  background-color: var(--bluebtn);
-  font-size: 16px;
   border-collapse: collapse;
-  line-height: 3em;
+  background-color: var(--bluebtn);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  width: 216px;
+  height: 50px;
+  /*line-height: 3em;*/
+  border-radius: 4px;
 }
 .nawbtn-section {
   /* background-color: #f5f4fa;*/
 }
 .navbtn-menu button {
   border-collapse: collapse;
+  /*line-height: 2em;*/
+  height: 38px;
   background-color: var(--greybtbn);
   font-size: 16px;
   line-height: 1.62;
