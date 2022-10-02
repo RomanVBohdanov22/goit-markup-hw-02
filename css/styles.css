@@ -129,6 +129,11 @@ body {
   color: var(--whitetxt);
   line-height: 3em;
 }
+.main-page-adv-4h3 .h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .main-page-banner {
   background-color: var(--bannerclr);
 }
