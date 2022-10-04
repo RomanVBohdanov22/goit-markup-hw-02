@@ -155,7 +155,7 @@ body {
 }
 
 .our-command-section {
-  /*background: var(--our-command-bg);*/
+  background: var(--our-command-bg);
 }
 .nawbtn-section {
   /*background-color: var(--bg-color-grey);*/
