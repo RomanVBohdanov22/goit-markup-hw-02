@@ -51,9 +51,9 @@ body {
   font-weight: 500;
   color: var(--fontcolorh3);
 }
-.ul > img {
+/*.ul > img {
   display: block;
-}
+}*/
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -71,15 +71,22 @@ body {
 }
 .f-main {
   border: 1px solid #eeeeee;
-}*/
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+*/
 
 .nomarkerlst {
   list-style-type: none;
   padding: 0;
 }
-.navtag1 a,
-.navtag1 li > a,
-.header .nomarkerlst li > a {
+/*navtag1 >> navigation*/
+.navigation a,
+.navigation li > a,
+.navigation .nomarkerlst li > a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
