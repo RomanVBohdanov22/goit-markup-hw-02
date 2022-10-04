@@ -64,10 +64,10 @@ body {
   margin: -1px;
 }
 .header {
-  border-bottom: 1px solid #ececec;
+  /*border-bottom: 1px solid #ececec;*/
 }
 .f-main {
-  border: 1px solid #eeeeee;
+  /*border: 1px solid #eeeeee;*/
 }
 
 .nomarkerlst {
@@ -146,7 +146,6 @@ body {
   font-size: 16px;
   width: 216px;
   height: 50px;
-  /*line-height: 3em;*/
   border-radius: 4px;
 }
 .button-to-order:active {
@@ -154,7 +153,7 @@ body {
 }
 
 .our-command-section {
-  background: var(--our-command-bg);
+  /*background: var(--our-command-bg);*/
 }
 .nawbtn-section {
   /*background-color: #f5f4fa;*/
@@ -164,14 +163,13 @@ body {
   height: 38px;
   background-color: var(--greybtbn);
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', inherits;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  /*inherits: ;*/
 }
 .navbtn-menu button:hover,
 .navbtn-menu button:focus,
