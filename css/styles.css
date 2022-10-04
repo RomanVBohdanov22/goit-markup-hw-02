@@ -11,6 +11,7 @@
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
   --logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
+  --our-command-bg: #f5f4fa;
 }
 body {
   background-color: var(--bgcolor);
@@ -151,18 +152,26 @@ body {
 .button-to-order:active {
   background: #188ce8;
 }
+
+.our-command-section {
+  background: var(--our-command-bg);
+}
 .nawbtn-section {
   /*background-color: #f5f4fa;*/
 }
 .navbtn-menu button {
   border-collapse: collapse;
-  /*line-height: 2em;*/
   height: 38px;
   background-color: var(--greybtbn);
   font-size: 16px;
-  line-height: 1.62;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  /*inherits: ;*/
 }
 .navbtn-menu button:hover,
 .navbtn-menu button:focus,
@@ -180,6 +189,9 @@ body {
   cursor: pointer;
 }
 .nomarkerlst li > a:active {
+  color: var(--bluetextclr);
+}
+.nomarkerlst li > a:focus {
   color: var(--bluetextclr);
 }
 /*.nomarkerlst li > a:visited {
