@@ -94,7 +94,6 @@ body {
 .logo1p {
   font-size: 26px;
   text-decoration: none;
-  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--bluetextclr);
@@ -102,7 +101,6 @@ body {
 .header .logo2p {
   font-size: 26px;
   text-decoration: none;
-  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--fontblack);
@@ -110,7 +108,6 @@ body {
 .footer .logo2p {
   font-size: 26px;
   text-decoration: none;
-  text-shadow: var(--logoshadow);
   font-family: var(--bannerfont);
   font-weight: 700;
   color: var(--whitetxt);
