@@ -16,7 +16,6 @@ body {
   background-color: var(--bgcolor);
   font-family: var(--mainfont);
   font-size: 14px;
-  font-weight: 400;
 }
 .h1,
 .h2,
