@@ -76,7 +76,10 @@ body {
 .navtag1 a,
 .navtag1 li > a,
 .header .nomarkerlst li > a {
-  line-height: 1.14;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--fontcolorh3);
 }
@@ -140,12 +143,16 @@ body {
   color: var(--whitetxt);
   border-collapse: collapse;
   background-color: var(--bluebtn);
+  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   width: 216px;
   height: 50px;
   /*line-height: 3em;*/
   border-radius: 4px;
+}
+.button-to-order:active {
+  background: #188ce8;
 }
 .nawbtn-section {
   /*background-color: #f5f4fa;*/
@@ -171,15 +178,13 @@ body {
   font-size: 16px;
   color: var(--fontcolordescrp);
 }
-.main-page-banner > button:hover {
-  /*color: chocolate;*/
+/*.main-page-banner > button:hover {
   opacity: 0.6;
   cursor: pointer;
-}
-.main-page-banner > button:focus {
-  /*color: tomato;*/
+}*/
+/*.main-page-banner > button:focus {
   opacity: 0.85;
-}
+}*/
 .nomarkerlst li > a:hover {
   color: var(--bluetextclr);
   cursor: pointer;
