@@ -1,5 +1,6 @@
 :root {
   --bgcolor: #f5f5f5;
+  --bg-color-grey: #f5f4fa;
   --mainfont: 'Roboto', sans-serif;
   --bannerfont: 'Raleway', sans-serif;
   --bluebtn: #2196f3;
@@ -10,26 +11,28 @@
   --fontcolordescrp: #757575;
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
-  --logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
+  /*--logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
   --our-command-bg: #f5f4fa;
+  --button-to-order-active-clr: #188ce8;
+  --button-to-order-box-shadow-color: rgba(0, 0, 0, 0.15);
 }
 body {
   background-color: var(--bgcolor);
   font-family: var(--mainfont);
   font-size: 14px;
 }
-.h1,
+
+/*.h1,
 .h2,
 .h3,
 .h4,
 .ul,
 .p {
-  /*margin: 0;
-  padding: 0;*/
-}
+  margin: 0;
+  padding: 0;
+}*/
 .p {
   color: var(--fontcolordescrp);
-  font-weight: 400;
 }
 .h1 {
   font-size: 44px;
@@ -63,12 +66,12 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.header {
-  /*border-bottom: 1px solid #ececec;*/
+/*.header {
+  border-bottom: 1px solid #ececec;
 }
 .f-main {
-  /*border: 1px solid #eeeeee;*/
-}
+  border: 1px solid #eeeeee;
+}*/
 
 .nomarkerlst {
   list-style-type: none;
@@ -90,7 +93,6 @@ body {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   color: var(--whitetxt);
 }
 
@@ -142,21 +144,21 @@ body {
   border-collapse: collapse;
   background-color: var(--bluebtn);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--button-to-order-box-shadow-color);
   font-size: 16px;
   width: 216px;
   height: 50px;
   border-radius: 4px;
 }
 .button-to-order:active {
-  background: #188ce8;
+  background: var(--button-to-order-active-clr);
 }
 
 .our-command-section {
   /*background: var(--our-command-bg);*/
 }
 .nawbtn-section {
-  /*background-color: #f5f4fa;*/
+  /*background-color: var(--bg-color-grey);*/
 }
 .navbtn-menu button {
   border-collapse: collapse;
