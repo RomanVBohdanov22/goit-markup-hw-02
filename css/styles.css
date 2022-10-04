@@ -120,9 +120,6 @@ body {
 .opacity60 {
   opacity: 0.6;
 }
-.ourcommand-bg {
-  background-color: #f5f4fa;
-}
 .all-big-chars {
   font-weight: 900;
   text-transform: uppercase;
@@ -178,13 +175,6 @@ body {
   font-size: 16px;
   color: var(--fontcolordescrp);
 }
-/*.main-page-banner > button:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}*/
-/*.main-page-banner > button:focus {
-  opacity: 0.85;
-}*/
 .nomarkerlst li > a:hover {
   color: var(--bluetextclr);
   cursor: pointer;
