@@ -79,15 +79,30 @@ img {
   height: auto;
 }
 */
-
-.nomarkerlst {
+.no-marker-list {
   list-style-type: none;
   padding: 0;
 }
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--fontcolorh3);
+}
+.footer {
+  /*font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;*/
+  text-decoration: none;
+  font-style: normal;
+  color: var(--whitetxt);
+}
 /*navtag1 >> navigation*/
-.navigation a,
+/*.navigation a,
 .navigation li > a,
-.navigation .nomarkerlst li > a {
+.navigation .no-marker-list li > a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -97,37 +112,50 @@ img {
 }
 .footer a,
 .footer li > a,
-.footer .nomarkerlst li > a {
+.footer .no-marker-list li > a {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
   color: var(--whitetxt);
 }
-
-.logo1p {
+*/
+.nav-list {
+  text-decoration: none;
+}
+.nav-item {
+}
+.logo {
   font-size: 26px;
   text-decoration: none;
   font-family: var(--bannerfont);
   font-weight: 700;
+}
+.logo-accent {
   color: var(--bluetextclr);
 }
 .header .logo2p {
-  font-size: 26px;
-  text-decoration: none;
-  font-family: var(--bannerfont);
-  font-weight: 700;
   color: var(--fontblack);
 }
 .footer .logo2p {
-  font-size: 26px;
-  text-decoration: none;
-  font-family: var(--bannerfont);
-  font-weight: 700;
   color: var(--whitetxt);
 }
 .footer {
   background-color: var(--bannerclr);
 }
+
+.no-marker-list li > a:hover {
+  color: var(--bluetextclr);
+  cursor: pointer;
+}
+.no-marker-list li > a:active {
+  color: var(--bluetextclr);
+}
+.no-marker-list li > a:focus {
+  color: var(--bluetextclr);
+}
+/*.nomarkerlst li > a:visited {
+  color: tomato;
+}*/
 .opacity60 {
   opacity: 0.6;
 }
@@ -197,16 +225,3 @@ img {
   font-size: 16px;
   color: var(--fontcolordescrp);
 }
-.nomarkerlst li > a:hover {
-  color: var(--bluetextclr);
-  cursor: pointer;
-}
-.nomarkerlst li > a:active {
-  color: var(--bluetextclr);
-}
-.nomarkerlst li > a:focus {
-  color: var(--bluetextclr);
-}
-/*.nomarkerlst li > a:visited {
-  color: tomato;
-}*/
