@@ -119,11 +119,27 @@ img {
   color: var(--whitetxt);
 }
 */
-.nav-list {
+
+.navigation .link,
+.navigation .nav-item > .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--fontcolorh3);
 }
-.nav-item {
+.navigation > .nav-list {
 }
+.nav-list > .nav-item {
+  /*text-decoration: none;*/
+}
+.navigation > .contacts-list {
+}
+.contacts-list > .contacts-item {
+  /*text-decoration: none;*/
+}
+
 .logo {
   font-size: 26px;
   text-decoration: none;
