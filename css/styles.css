@@ -83,7 +83,7 @@ img {
 */
 .no-marker-list {
   list-style-type: none;
-  padding: 0;
+  /* padding: 0;*/
 }
 .navigation .link,
 .contacts-list .link {
