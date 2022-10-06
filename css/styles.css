@@ -83,7 +83,8 @@ img {
   list-style-type: none;
   padding: 0;
 }
-.navigation {
+.navigation .link,
+.contacts-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -91,54 +92,23 @@ img {
   text-decoration: none;
   color: var(--fontcolorh3);
 }
-.footer {
-  /*font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;*/
-  text-decoration: none;
-  font-style: normal;
-  color: var(--whitetxt);
-}
-/*navtag1 >> navigation*/
-/*.navigation a,
-.navigation li > a,
-.navigation .no-marker-list li > a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--fontcolorh3);
-}
-.footer a,
-.footer li > a,
-.footer .no-marker-list li > a {
+.footer .link,
+.footer > .contacts-list .link {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
   color: var(--whitetxt);
 }
-*/
 
-.navigation .link,
-.navigation .nav-item > .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--fontcolorh3);
-}
-.navigation > .nav-list {
+/*.navigation > .nav-list {
 }
 .nav-list > .nav-item {
-  /*text-decoration: none;*/
 }
 .navigation > .contacts-list {
 }
 .contacts-list > .contacts-item {
-  /*text-decoration: none;*/
-}
+  
+}*/
 
 .logo {
   font-size: 26px;
