@@ -16,6 +16,7 @@
   --our-command-bg: #f5f4fa;
   --button-to-order-active-clr: #188ce8;
   --button-to-order-box-shadow-color: rgba(0, 0, 0, 0.15);
+  --opasity-const: 0.6;
 }
 body {
   background-color: var(--bgcolor);
@@ -120,16 +121,18 @@ img {
 .logo-accent {
   color: var(--bluetextclr);
 }
-.header .logo2p {
+.header .logo-second {
   color: var(--fontblack);
 }
-.footer .logo2p {
+.footer .logo-second {
   color: var(--whitetxt);
 }
 .footer {
   background-color: var(--bannerclr);
 }
-
+.opacity60 {
+  opacity: var(--opasity-const);
+}
 .no-marker-list .nav-item > .link:hover,
 .no-marker-list .contacts-item > .link:hover {
   color: var(--bluetextclr);
@@ -146,9 +149,7 @@ img {
 /*.nomarkerlst li > a:visited {
   color: tomato;
 }*/
-.opacity60 {
-  opacity: 0.6;
-}
+
 .all-big-chars {
   font-weight: 900;
   text-transform: uppercase;
