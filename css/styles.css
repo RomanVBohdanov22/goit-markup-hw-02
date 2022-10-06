@@ -130,14 +130,17 @@ img {
   background-color: var(--bannerclr);
 }
 
-.no-marker-list li > a:hover {
+.no-marker-list .nav-item > .link:hover,
+.no-marker-list .contacts-item > .link:hover {
   color: var(--bluetextclr);
   cursor: pointer;
 }
-.no-marker-list li > a:active {
+.no-marker-list .nav-item > .link:active,
+.no-marker-list .contacts-item > .link:active {
   color: var(--bluetextclr);
 }
-.no-marker-list li > a:focus {
+.no-marker-list .nav-item > .link:focus,
+.no-marker-list .contacts-item > .link:focus {
   color: var(--bluetextclr);
 }
 /*.nomarkerlst li > a:visited {
