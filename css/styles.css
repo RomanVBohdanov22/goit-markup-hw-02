@@ -32,7 +32,8 @@ body {
   margin: 0;
   padding: 0;
 }*/
-.p {
+
+.text {
   color: var(--fontcolordescrp);
 }
 .h1 {
@@ -207,7 +208,7 @@ img {
   background-color: var(--bluebtn);
   color: var(--whitetxt);
 }
-.alt-p-16 > .p {
+.alt-p-16 > .text {
   font-size: 16px;
   color: var(--fontcolordescrp);
 }
