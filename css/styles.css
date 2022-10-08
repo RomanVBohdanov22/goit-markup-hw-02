@@ -40,17 +40,18 @@ body {
 .text {
   color: var(--fontcolordescrp);
 }
-.h-1 {
+.hero-title {
   font-size: 44px;
   font-weight: 900;
   color: var(--fontcolorh3);
 }
-.h-2 {
+.features-title,
+.about-title {
   font-size: 36px;
   font-weight: 700;
   color: var(--fontcolorh3);
 }
-.h-3 {
+.feature-title {
   font-size: 18px;
   font-weight: 500;
   color: var(--fontcolorh3);
@@ -147,17 +148,28 @@ img {
   color: var(--whitetxt);
   line-height: 3em;
 }
-.main-page-adv-4h3 .h-3 {
+.features .feature-title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
+.features-list {
+  /**/
+}
+.feature {
+}
 
-.main-page-banner {
+/*
+.about {}
+.about-list {}
+.about-item {}
+.about-image {}
+*/
+.hero {
   background-color: var(--bannerclr);
 }
 
-.button-to-order {
+.hero-button {
   font-family: inherit;
   color: var(--whitetxt);
   border-collapse: collapse;
@@ -169,8 +181,8 @@ img {
   height: 50px;
   border-radius: 4px;
 }
-.button-to-order:active,
-.button-to-order:focus {
+.hero-button:active,
+.hero-button:focus {
   background: var(--button-to-order-active-clr);
 }
 
