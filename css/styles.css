@@ -47,13 +47,11 @@ body {
 }
 .h-2 {
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   color: var(--fontcolorh3);
 }
 .h-3 {
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   color: var(--fontcolorh3);
 }
@@ -187,23 +185,22 @@ img {
 .nawbtn-section {
   /*background-color: var(--bg-color-grey);*/
 }
-.navbtn-menu button {
+.navbtn-menu .menu-button {
   border-collapse: collapse;
   height: 38px;
+  cursor: pointer;
   background-color: var(--greybtbn);
   font-size: 16px;
-  font-family: 'Roboto', inherits;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.6em;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
-.navbtn-menu .button:hover,
-.navbtn-menu .button:focus,
-.navbtn-menu .button:active {
-  cursor: pointer;
+.navbtn-menu .menu-button:hover,
+.navbtn-menu .menu-button:focus,
+.navbtn-menu .menu-button:active {
   background-color: var(--bluebtn);
   color: var(--whitetxt);
 }
