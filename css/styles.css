@@ -13,6 +13,7 @@
   --text-wrapper-bg: #f5f4fa;
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
+  --background-card-color: #eeeeee;
 
   /*--blue-order-button-active: #188ce8;*/
   /*--logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
@@ -37,7 +38,8 @@ body {
   padding: 0;
 }*/
 
-.text {
+.feature-text,
+.team-person-text {
   color: var(--fontcolordescrp);
 }
 .hero-title {
@@ -46,12 +48,14 @@ body {
   color: var(--fontcolorh3);
 }
 .features-title,
-.about-title {
+.about-title,
+.team-title {
   font-size: 36px;
   font-weight: 700;
   color: var(--fontcolorh3);
 }
-.feature-title {
+.feature-title,
+.team-person-title {
   font-size: 18px;
   font-weight: 500;
   color: var(--fontcolorh3);
@@ -95,7 +99,7 @@ img {
   text-decoration: none;
   color: var(--fontcolorh3);
 }
-.contacts-list .link {
+.contacts-item .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -113,7 +117,7 @@ img {
   font-style: normal;
   color: var(--whitetxt);
 }
-.footer .contacts-list {
+.footer .contacts-item {
   opacity: var(--opasity-const);
 }
 
@@ -186,7 +190,7 @@ img {
   background: var(--button-to-order-active-clr);
 }
 
-.our-command-section {
+.team {
   background: var(--our-command-bg);
 }
 .text-wrapper {
@@ -194,10 +198,10 @@ img {
   padding-top: 30px;*/
   background: var(--white-bg);
 }
-.nawbtn-section {
+.filters {
   /*background-color: var(--bg-color-grey);*/
 }
-.navbtn-menu .menu-button {
+.filters-list .filter-button {
   border-collapse: collapse;
   height: 38px;
   cursor: pointer;
@@ -205,18 +209,34 @@ img {
   font-size: 16px;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.6em;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
-.navbtn-menu .menu-button:hover,
-.navbtn-menu .menu-button:focus,
-.navbtn-menu .menu-button:active {
+.filters-list .filter-button:hover,
+.filters-list .filter-button:focus,
+.filters-list .filter-button:active {
   background-color: var(--bluebtn);
   color: var(--whitetxt);
 }
-.alt-p-16 > .text {
+
+.cards {
+  /**/
+}
+.cards-list {
+}
+.cards-item {
+  background-color: --background-card-color;
+}
+.cards-item-img {
+}
+.cards-item-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--fontcolorh3);
+}
+.cards-item-text {
   font-size: 16px;
   color: var(--fontcolordescrp);
 }
