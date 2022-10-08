@@ -5,6 +5,7 @@
   --bannerfont: 'Raleway', sans-serif;
   --bluebtn: #2196f3;
   --bluetextclr: var(--bluebtn);
+  --white-bg: #ffffff;
   --whitetxt: #ffffff;
   --bannerclr: #2f303a;
   --fontcolorh3: #212121;
@@ -12,6 +13,8 @@
   --text-wrapper-bg: #f5f4fa;
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
+
+  /*--blue-order-button-active: #188ce8;*/
   /*--logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
   --our-command-bg: #f5f4fa;
   --button-to-order-active-clr: #188ce8;
@@ -19,7 +22,7 @@
   --opasity-const: 0.6;
 }
 body {
-  background-color: var(--bgcolor);
+  background-color: var(--white-bg);
   font-family: var(--mainfont);
   font-size: 14px;
 }
@@ -85,8 +88,7 @@ img {
   list-style-type: none;
   /* padding: 0;*/
 }
-.navigation .link,
-.contacts-list .link {
+.navigation .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -94,12 +96,26 @@ img {
   text-decoration: none;
   color: var(--fontcolorh3);
 }
-.footer .link,
-.footer > .contacts-list .link {
+.contacts-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--fontcolordescrp);
+}
+.footer {
+  color: var(--whitetxt);
+  background-color: var(--bannerclr);
+}
+.footer .link {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
   color: var(--whitetxt);
+}
+.footer .contacts-list {
+  opacity: var(--opasity-const);
 }
 
 /*.navigation > .nav-list {
@@ -116,23 +132,13 @@ img {
   font-size: 26px;
   text-decoration: none;
   font-family: var(--bannerfont);
+  color: inherit; /*var(--fontblack);*/
   font-weight: 700;
 }
 .logo-accent {
   color: var(--bluetextclr);
 }
-.header .logo-second {
-  color: var(--fontblack);
-}
-.footer .logo-second {
-  color: var(--whitetxt);
-}
-.footer {
-  background-color: var(--bannerclr);
-}
-.opacity60 {
-  opacity: var(--opasity-const);
-}
+
 .no-marker-list .nav-item > .link:hover,
 .no-marker-list .contacts-item > .link:hover {
   color: var(--bluetextclr);
@@ -167,6 +173,7 @@ img {
 }
 
 .button-to-order {
+  font-family: inherit;
   color: var(--whitetxt);
   border-collapse: collapse;
   background-color: var(--bluebtn);
@@ -177,7 +184,8 @@ img {
   height: 50px;
   border-radius: 4px;
 }
-.button-to-order:active {
+.button-to-order:active,
+.button-to-order:focus {
   background: var(--button-to-order-active-clr);
 }
 
@@ -205,9 +213,9 @@ img {
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
-.navbtn-menu button:hover,
-.navbtn-menu button:focus,
-.navbtn-menu button:active {
+.navbtn-menu .button:hover,
+.navbtn-menu .button:focus,
+.navbtn-menu .button:active {
   cursor: pointer;
   background-color: var(--bluebtn);
   color: var(--whitetxt);
