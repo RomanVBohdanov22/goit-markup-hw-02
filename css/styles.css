@@ -46,7 +46,9 @@ body {
 .hero-title {
   font-size: 44px;
   font-weight: 900;
-  color: var(--fontcolorh3);
+  color: var(--whitetxt);
+  /*color: var(--fontcolorh3);*/
+  line-height: 1.36;
 }
 .features-title,
 .about-title,
@@ -152,10 +154,7 @@ img {
 }
 
 .all-big-chars {
-  font-weight: 900;
   text-transform: uppercase;
-  color: var(--whitetxt);
-  line-height: 1.36;
 }
 .features .feature-title {
   text-transform: uppercase;
