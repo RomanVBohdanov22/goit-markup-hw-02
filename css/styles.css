@@ -14,6 +14,7 @@
   --fontblack: #000000;
   --greybtbn: #f4f5fa;
   --background-card-color: #eeeeee;
+  --header-frame-color: #ececec;
 
   /*--blue-order-button-active: #188ce8;*/
   /*--logoshadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*text-shadow*/
@@ -75,9 +76,10 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/*.header {
-  border-bottom: 1px solid #ececec;
+.header {
+  border-bottom: 1px solid var(--header-frame-color);
 }
+/*
 .f-main {
   border: 1px solid #eeeeee;
 }
