@@ -118,16 +118,6 @@ img {
   opacity: var(--opasity-const);
 }
 
-/*.navigation > .nav-list {
-}
-.nav-list > .nav-item {
-}
-.navigation > .contacts-list {
-}
-.contacts-list > .contacts-item {
-  
-}*/
-
 .logo {
   font-size: 26px;
   text-decoration: none;
@@ -152,9 +142,6 @@ img {
 .no-marker-list .contacts-item > .link:focus {
   color: var(--bluetextclr);
 }
-/*.nomarkerlst li > a:visited {
-  color: tomato;
-}*/
 
 .all-big-chars {
   font-weight: 900;
@@ -162,7 +149,7 @@ img {
   color: var(--whitetxt);
   line-height: 3em;
 }
-.main-page-adv-4h3 .h3 {
+.main-page-adv-4h3 .h-3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -195,7 +182,7 @@ img {
 .text-wrapper {
   /*padding-bottom: 30px;
   padding-top: 30px;*/
-  background: var(--text-wrapper-bg);
+  background: var(--white-bg);
 }
 .nawbtn-section {
   /*background-color: var(--bg-color-grey);*/
